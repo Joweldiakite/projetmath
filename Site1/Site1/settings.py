@@ -120,7 +120,6 @@ USE_TZ = True
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "polls"),
 ]
-STATIC_ROOT = "app-root/repo/wsgi/static"
 STATIC_URL = '/static/'
 MEDIA_ROOT = 'Site1/polls'
 MEDIA_URL = '/polls/'
