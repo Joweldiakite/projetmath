@@ -16,11 +16,11 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 
-#urlpatterns = [
-#    url(r'^polls/', include('polls.urls')),
-#    url(r'^admin/', admin.site.urls),
-#]
-urlpatterns = patterns('',
-    url(r'^mysite/polls/', include('polls.urls', namespace="polls")),
-    url(r'^mysite/admin/', include(admin.site.urls)),
-)
+urlpatterns = [
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+    url(r'^admin/', admin.site.urls),
+]
+#urlpatterns = patterns('',
+#    url(r'^mysite/polls/', include('polls.urls', namespace="polls")),
+#    url(r'^mysite/admin/', include(admin.site.urls)),
+#)
