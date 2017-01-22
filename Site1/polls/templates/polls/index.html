@@ -1,0 +1,12 @@
+<h1>Adri la grosse salope </h1>
+
+
+<form action="/polls/" method="post" enctype=multipart/form-data>
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>
+{% if done == True %}
+   Bonjour
+   {% load static %} <img src="{% static "result.png" %}" alt="Hi!" />
+{% endif %}
