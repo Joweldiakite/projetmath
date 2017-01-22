@@ -3,7 +3,7 @@ Django==1.10.5
 matplotlib==2.0.0
 numpy==1.12.0
 pyparsing==2.1.10
-python-dateutil==2.6.0
+python-dateutil==python-3.6.0
 pytz==2016.10
 scipy==0.18.1
 six==1.10.0
